@@ -1,0 +1,10 @@
+nota1 = float(input("Insira sua primeira nota\n"))
+nota2 = float(input("Insira sua segunda nota\n"))
+nota3 = float(input("Insira sua terceira nota\n"))
+nota4 = float(input("Insira sua quarta nota\n"))
+media = (nota4 + nota3 + nota2 + nota1)/4
+print('Sua média de notas é {:.2f}'.format(media))
+if media < 6:
+    print("Que pena.Você foi reprovado")
+else:
+    print("Parabéns,você foi aprovado!")

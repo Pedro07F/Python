@@ -1,0 +1,4 @@
+produto = float(input('Qual o valor do produto?R$'))
+desconto = float(input('Qual a % de desconto?'))
+pf = produto - (desconto/100*produto)
+print('O produto que custava R${:.2f}, na promoção com {}% de desconto vai custar R${:.2f}'.format(produto, desconto, pf))
